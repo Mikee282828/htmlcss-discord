@@ -11,94 +11,86 @@
     margin-right:auto;
 }
 
-.container1,.container2,.container3,.container4,.container5,.container6{
-    border:dotted black;
+.flex-container{
+    display:flex;
+    justify-content:center;
+}
+body{
+    min-width: 783px;
 }
 
 /************** colori **********+*/
 
-.celeste{
-    background-color: rgb(173, 216, 230);
-}
-.ocra{
-    background-color: rgb(218,165,32);
-}
-.blue{
-    background-color: rgb(0,0,139);
-}
-.fucsia{
-    background-color: rgb(238,130,238);
-}
-.pink{
-    background-color: rgb(255,192,203);
-}
 .light_blue{
-    background-color: rgb(30, 144, 255);
-}
-.grey{
-    background-color:rgb(211, 211, 211);
-}
-.green{
-    background-color: rgb(34, 139, 34);
+    background-color: rgb(38, 94, 232);
 }
 .black{
     background-color: rgb(35, 39, 42);
+    color:white;    
 }
-.pink2{
-    background-color: rgb(240, 128, 128);
-}
-.acqua{
-    background-color: rgb(32, 178, 170);
-}
-.acqua2{
-    background-color: rgb(127, 255, 212);
-}
-.pink3{
-    background-color: rgb(255, 182, 193);
-}
+
 /************** prima sezione **********+*/
 
 .title{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items:center;
     padding:1rem 0;
 }
-.logo,.link,.login{
-    border:dotted black;
+.link,.login{
     padding:0.5rem;
-}
-.logo,.login{
-    width:20%;
-}
-.link{
-    width:60%;
-    text-align: center;
+    width:10%;
 }
 
-.container1{
-    min-height:13rem;
-    width:35rem;
+.link{
+    width:20%;
+    text-align: center;
+    color:white;
 }
-.flex-container{
-    display:flex;
-    justify-content:center;
-    padding:2rem 0;
+
+.flex-container-header{
+    display: flex;
+    justify-content: space-between;
+    width:50%;
+}
+.sfondo1{
+    background-image:url("../img/jumbo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    min-height:550px;
 }
 
 .container{
-    height:calc(17rem + 3px);
+    width:50%;
+    text-align: center;
+}
+.download-center{
+    align-items: center;
+    min-height:550px;
+}
+button{
+    padding:0.8rem;
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+    margin:1rem;
+}
+p{
+    line-height:1.5rem;
+}
+h1{
+    padding:1rem;
 }
 /*************** seconda sezione *****************/
 
 .container2,.container3{
     min-height:20rem;
 }
-.container2{
-    width:60%;
-}
 .container3{
-    width:40%;
+    width:30%;
+    margin-top:calc(1rem + 3px);
 }
 /**************** quinta sezione ******************/
 
@@ -122,7 +114,6 @@
     justify-content:space-between;
 }
 .container6{
-    border:dotted white;
     width:calc(100% / 4);
 }
 
@@ -131,8 +122,5 @@
     justify-content: space-between;
     align-items: center;
     height:3rem;
-}
-button{
-    border:black dotted;
 }
 
