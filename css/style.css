@@ -5,11 +5,6 @@
     font-family: sans-serif;
     padding:0;
 }
-.mid{
-    max-width:800px;
-    margin-left:auto;
-    margin-right:auto;
-}
 
 .flex-container{
     display:flex;
@@ -18,17 +13,27 @@
 body{
     min-width: 783px;
 }
+h1{
+    margin-bottom:2rem;
+    line-height: 3rem;
+}
 
 /************** colori **********+*/
 
 .light_blue{
     background-color: rgb(38, 94, 232);
 }
-.black{
+.black-button{
     background-color: rgb(35, 39, 42);
     color:white;    
 }
-
+.grey{
+    background-color: rgb(246, 246, 246);
+}
+.blue-button{
+    background-color:rgb(113, 137, 218) ;
+    color:white;
+}
 /************** prima sezione **********+*/
 
 .title{
@@ -80,23 +85,25 @@ button{
 p{
     line-height:1.5rem;
 }
-h1{
-    padding:1rem;
-}
+
 /*************** seconda sezione *****************/
 
 .container2,.container3{
     min-height:20rem;
 }
 .container3{
-    width:30%;
-    margin-top:calc(1rem + 3px);
+    width:20%;
+    margin-top:calc(2rem + 3px);
+}
+
+.padding-top-bottom{
+    padding:8rem 0;
 }
 /**************** quinta sezione ******************/
 
 .container4{
-    min-height:30rem;
-    width:100%;
+    width:60%;
+    text-align: center;
 }
 
 /**************** footer *******************/
