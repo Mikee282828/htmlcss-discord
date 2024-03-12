@@ -18,21 +18,42 @@ h1{
     line-height: 3rem;
 }
 
+.padding-top-bottom{
+    padding:8rem 0;
+}
+
+.padding-top{
+    padding-top:4rem;
+}
+.padding-bottom{
+    padding-bottom:4rem;
+}
+.contain{
+    width:80%;
+    margin:auto;
+}
+p{
+    line-height:2.5rem;
+}
+
 /************** colori **********+*/
 
 .light_blue{
     background-color: rgb(38, 94, 232);
 }
-.black-button{
+.black{
     background-color: rgb(35, 39, 42);
     color:white;    
 }
 .grey{
     background-color: rgb(246, 246, 246);
 }
-.blue-button{
-    background-color:rgb(113, 137, 218) ;
+.blue-white{
+    background-color:rgb(113, 137, 218);
     color:white;
+}
+.blue{
+    color: rgb(113, 137, 218);
 }
 /************** prima sezione **********+*/
 
@@ -42,12 +63,13 @@ h1{
     align-items:center;
     padding:1rem 0;
 }
-.link,.login{
+.login{
     padding:0.5rem;
     width:10%;
 }
 
 .link{
+    padding:0.5rem;
     width:20%;
     text-align: center;
     color:white;
@@ -82,9 +104,6 @@ button{
     border-radius: 2rem;
     margin:1rem;
 }
-p{
-    line-height:1.5rem;
-}
 
 /*************** seconda sezione *****************/
 
@@ -96,9 +115,6 @@ p{
     margin-top:calc(2rem + 3px);
 }
 
-.padding-top-bottom{
-    padding:8rem 0;
-}
 /**************** quinta sezione ******************/
 
 .container4{
